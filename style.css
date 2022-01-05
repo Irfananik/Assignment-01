@@ -1,0 +1,47 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+/*--section-01*/
+.section-part{
+    display: flex;
+    margin: 0 auto;
+    width: 70%;
+
+}
+.section-div{
+    width: 50%;
+}
+.section-div h1{
+    font-size:52px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 7px;
+    border-left: 7px solid #eee;
+    border-image: linear-gradient(tomato, salmon);
+    border-image-slice: 1;
+
+}
+.sec-1-h1{
+    color: #FFAD5A;
+}
+.section-div p{
+    font-size:20px;
+    color: rgb(163, 162, 162);
+    align-items:justify;
+    width: 600px;
+    padding-top:5px;
+}
+.section-part-btn{
+    color:#fff;
+    font-size:16px;
+    font-weight: bold;
+    background-color: #FF5959;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.section-div img{
+    width: 600px;
+}
