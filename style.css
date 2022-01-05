@@ -3,12 +3,12 @@ body{
     margin: 0;
 }
 
-/*--section-01*/
+/*--header-section, develope-section, Community-section*/
 .section-part{
     display: flex;
     margin: 0 auto;
     width: 70%;
-    padding:60px;
+    padding:50px;
 
 }
 .section-div{
@@ -47,9 +47,10 @@ body{
     width: 600px;
 }
 
+
 /*--mission-section--*/
 .section-mission{
-    padding:30px;
+    padding:0px 30px;
 }
 .section-mission h1{
     text-align: center;
@@ -112,8 +113,10 @@ body{
     color: rgb(117, 114, 114);
     align-items:justify;
 }
+/*--mission-section-end--*/
 
-/*--section-03--*/
+
+/*--develope-section--*/
 .dev-section-btn{
     color:#fff;
     font-size:18px;
@@ -123,14 +126,10 @@ body{
     text-decoration: none;
     border-radius: 4px;
 }
-.section-div-bg{
-    background-image: url(./images/shapes/dream-bg.png);
-    background-position: left;
-    background-repeat: no-repeat;
-    margin-left:50px;
-}
+/*--develope-section-end--*/
 
-/*--section-03--*/
+
+/*--feedback-section--*/
 .feedback-div{
     margin-left:750px;
     margin-top: 90px;
@@ -160,6 +159,7 @@ body{
     border-radius: 3px;
     border: none;
 }
+/*--feedback-section-end--*/
 
 
 footer{
