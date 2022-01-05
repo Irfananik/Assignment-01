@@ -8,6 +8,7 @@ body{
     display: flex;
     margin: 0 auto;
     width: 70%;
+    padding:60px;
 
 }
 .section-div{
@@ -110,4 +111,78 @@ body{
     font-size:20px;
     color: rgb(117, 114, 114);
     align-items:justify;
+}
+
+/*--section-03--*/
+.dev-section-btn{
+    color:#fff;
+    font-size:18px;
+    font-weight: bold;
+    background-color: #FF5959;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.section-div-bg{
+    background-image: url(./images/shapes/dream-bg.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    margin-left:50px;
+}
+
+/*--section-03--*/
+.feedback-div{
+    margin-left:750px;
+    margin-top: 90px;
+}
+.feedback-div h1{
+    font-size:36px;
+    color: rgb(170, 170, 170);
+}
+.feedback-div label{
+    font-size:28px;
+    color:#b1aeae;
+    
+}
+.feedback-div input{
+    width: 400px;
+    height: 30px;
+    border-radius:4px;
+    border: 1px solid #b1aeae;
+    padding:12px 20px;
+}
+.feedback-div button{
+    background-color: #ABA7A8;
+    color: #fff;
+    font-size:15px;
+    padding:10px;
+    width: 100px;
+    border-radius: 3px;
+    border: none;
+}
+
+
+footer{
+    height: 250px;
+    background-color: #0B0D17;
+    margin-top:100px;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.footer-h1{
+    
+}
+.footer-h1 h1{
+    color: #fff;
+    font-size:40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.footer-h1-2{
+    color: #FF5959;
+}
+.footer-h1 p{
+    color: rgb(184, 183, 183);
+    font-size:20px;
 }
